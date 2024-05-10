@@ -1,0 +1,17 @@
+- Homepage
+- Fazer login e Criar conta (Usuario e Autenticação)
+    - Primeiro Nome
+    - Último Nome
+    - E-mail
+    - Senha
+
+- Residuos eletronicos
+    - produto
+    - thumb
+    - descrição do produto
+    - categoria
+    - empresas que recebem o produto
+        - preço pago
+        - endereço da empresa
+
+- Barra de pesquisa
