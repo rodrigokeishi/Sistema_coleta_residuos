@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block titulo %}
+    HomePage SisCol
+{% endblock %}
+
+{% block content %}
+
+    <header class="min-h-screen bg-lime-900 bg-opacity-75 bg-blend-lighten showcase border-gray-600 border-b-8 flex justify-center items-center bg-no-repeat" style="background-image: url('{% static 'images/background_lixo.png' %}');">
+        <div class="z-10 h-full py-32 md:py-0 text-green-100 text-center flex items-center flex-col">
+            <h1 class="font-semibold text-4xl md:text-5xl w-10/12 md:w-3/4 text-center">
+                SISCOL - SISTEMA DE COLETA DE RESÍDUOS ELETRÔNICOS EM SÃO BERNARDO DO CAMPO
+            </h1>
+            <h3 class="text-xl md:text-xl py-5">
+                Conectando coletores à tecnologia
+            </h3>
+        </div>
+    </header>
+
+    <section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 70vh;">
+        <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left p-5 md:p-10 ">
+            <h2 class="md:text-5xl text-4xl font-semibold mb-4">
+                Reciclagem.
+            </h2>
+            <h5 class="md:text-xl text-lg">
+                A reciclagem de eletrônicos é fundamental para diminuir ou amenizar os danos causados pela indústria.
+            </h5>
+        </div>
+        <div class='md:w-1/2 flex justify-center items-center'>
+            <img src="{% static 'images/reciclagem.png' %}" class="w-8/12" alt="">
+        </div>
+    </section>
+
+    <section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 70vh;">
+        <div class='md:w-1/2 flex justify-center items-center '>
+            <img src="{% static 'images/Lixo eltronico mundo.png' %}" class="w-8/12" alt="">
+        </div>
+
+        <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left p-5 md:p-10">
+            <h2 class="md:text-5xl text-4xl font-semibold mb-4">
+                O Brasil e o Lixo eletrônico.
+            </h2>
+            <h5 class="md:text-xl text-lg">
+                O Brasil é um dos maiores produtores desse tipo de resíduo no mundo, segundo o levantamento da ONU. No recorte das Américas, o país está na frente do México (1,5 milhão de tonelada) e Canadá (770 mil toneladas).
+            </h5>
+        </div>
+
+    </section>
+
+
+    <section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 70vh;">
+        <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left p-5 md:p-10">
+            <h2 class="md:text-5xl text-4xl font-semibold mb-4">
+                62 milhões de toneladas de resíduos.
+            </h2>
+            <h5 class="md:text-xl text-lg">
+                Esse é o número levantado, de acordo com a quarta edição do Monitor Global de Lixo Eletrônico, GEM, em 2022.
+            </h5>
+        </div>
+        <div class='md:w-1/2 flex justify-center items-center'>
+            <img src="{% static 'images/lixo eletronico.png' %}" class="w-8/12" alt="">
+        </div>
+    </section>
+    <footer class="px-5 py-10">
+        <ul class="flex justify-between items-center">
+
+            <li>&copy; 2024</li>
+            <li>Univesp</li>
+
+        </ul>
+    </footer>
+
+{% endblock %}
